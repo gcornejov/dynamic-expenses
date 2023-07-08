@@ -5,7 +5,7 @@ description = "Organize your expenses dynamically"
 authors = ["Gustavo Cornejo <g.cornejovivado@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "dynamic_expenses"}]
+packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
