@@ -23,7 +23,6 @@
                 "george-alisson.html-preview-vscode",
                 "ms-python.isort",
                 "ms-toolsai.jupyter",
-                "ms-python.vscode-pylance",
                 "charliermarsh.ruff"
             ],
             "settings": {
