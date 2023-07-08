@@ -1,0 +1,38 @@
+{
+    //"image": "mcr.microsoft.com/vscode/devcontainers/python:3.10-bullseye",
+    "build": {
+        "dockerfile": "base.Dockerfile",
+        "args": {
+            "IMG": "mcr.microsoft.com/vscode/devcontainers/python:3.10-bullseye"
+        }
+    },
+    //"postCreateCommand": "bash ./.devcontainer/poetry-setup.sh",
+    "postCreateCommand": "poetry config virtualenvs.in-project true && poetry config virtualenvs.prompt \".venv\" && poetry install && poetry run pre-commit install",
+    "forwardPorts": [5000],
+    "customizations": {
+        // Configure properties specific to VS Code.
+        "vscode": {
+            // Add the IDs of extensions you want installed when the container is created.
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "clemenspeters.format-json",
+                "eamodio.gitlens",
+                "bungcip.better-toml",
+                "donjayamanne.python-environment-manager",
+                "ecmel.vscode-html-css",
+                "george-alisson.html-preview-vscode",
+                "ms-python.isort",
+                "ms-toolsai.jupyter",
+                "ms-python.vscode-pylance",
+                "charliermarsh.ruff"
+            ]
+        }
+    },
+    "settings": {
+        "editor.tabSize": 4,
+        "files.autoSave": "afterDelay",
+        "python.terminal.activateEnvironment": true,
+        "python.terminal.activateEnvInCurrentTerminal": true,
+        "python.defaultInterpreterPath": "${VIRTUAL_ENV}/bin/python"
+    }
+}
