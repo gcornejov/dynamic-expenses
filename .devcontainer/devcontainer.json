@@ -25,14 +25,14 @@
                 "ms-toolsai.jupyter",
                 "ms-python.vscode-pylance",
                 "charliermarsh.ruff"
-            ]
+            ],
+            "settings": {
+                "editor.tabSize": 4,
+                "files.autoSave": "afterDelay",
+                "python.terminal.activateEnvironment": true,
+                "python.terminal.activateEnvInCurrentTerminal": true,
+                "python.defaultInterpreterPath": "${VIRTUAL_ENV}/bin/python"
+            }
         }
-    },
-    "settings": {
-        "editor.tabSize": 4,
-        "files.autoSave": "afterDelay",
-        "python.terminal.activateEnvironment": true,
-        "python.terminal.activateEnvInCurrentTerminal": true,
-        "python.defaultInterpreterPath": "${VIRTUAL_ENV}/bin/python"
     }
 }
