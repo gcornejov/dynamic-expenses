@@ -1,13 +1,11 @@
 {
-    //"image": "mcr.microsoft.com/vscode/devcontainers/python:3.10-bullseye",
     "build": {
         "dockerfile": "base.Dockerfile",
         "args": {
             "IMG": "mcr.microsoft.com/vscode/devcontainers/python:3.10-bullseye"
         }
     },
-    //"postCreateCommand": "bash ./.devcontainer/poetry-setup.sh",
-    "postCreateCommand": "poetry config virtualenvs.in-project true && poetry config virtualenvs.prompt \".venv\" && poetry install && poetry run pre-commit install",
+    "postCreateCommand": "bash .devcontainer/poetry-setup.sh",
     "forwardPorts": [5000],
     "customizations": {
         // Configure properties specific to VS Code.
