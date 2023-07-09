@@ -1,9 +1,7 @@
-{
-    "groups": [
-        "Savings",
-        "Food",
-        "Clothes",
-        "Games",
-        "Hangout"
-    ]
-}
+[
+    "Savings",
+    "Food",
+    "Clothes",
+    "Games",
+    "Hangout"
+]

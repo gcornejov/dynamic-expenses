@@ -1,11 +1,14 @@
-{
-    "expenses": [ {
-            "1": {
-                "origin": "credit",
-                "commerce": "Amazon",
-                "amount": 10000,
-                "datetime": "2023/07/08 3:14:34"
-            }
-        }
-    ]
-}
+[
+    {
+        "origin": "credit",
+        "commerce": "Amazon",
+        "amount": 10000,
+        "datetime": "2023/07/08 3:14:34"
+    },
+    {
+        "origin": "credit",
+        "commerce": "Jumbo",
+        "amount": 55000,
+        "datetime": "2023/07/08 15:20:05"
+    }
+]
