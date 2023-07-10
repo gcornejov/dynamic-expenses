@@ -3,12 +3,28 @@
         "origin": "credit",
         "commerce": "Amazon",
         "amount": 10000,
-        "datetime": "2023/07/08 3:14:34"
+        "datetime": "2023/07/08 3:14:34",
+        "group": "Hobby"
     },
     {
         "origin": "credit",
         "commerce": "Jumbo",
         "amount": 55000,
-        "datetime": "2023/07/08 15:20:05"
+        "datetime": "2023/07/08 15:20:05",
+        "group": "Food"
+    },
+    {
+        "origin": "credit",
+        "commerce": "American Eagle",
+        "amount": 59000,
+        "datetime": "2023/07/09 16:43:18",
+        "group": "Clothes"
+    },
+    {
+        "origin": "transfer",
+        "commerce": "Transferencia Fintual",
+        "amount": 400000,
+        "datetime": "2023/07/06 20:37:13",
+        "group": "Savings"
     }
 ]
