@@ -1,30 +1,205 @@
 [
     {
         "origin": "credit",
-        "commerce": "Amazon",
-        "amount": 10000,
-        "datetime": "2023/07/08 3:14:34",
-        "group": "Hobby"
+        "commerce": "EVENTOS EVENTRID         SANTIAGO     CL",
+        "amount": 7700,
+        "datetime": "11/07/2023",
+        "group": "Hangout"
     },
     {
         "origin": "credit",
-        "commerce": "Jumbo",
-        "amount": 55000,
-        "datetime": "2023/07/08 15:20:05",
+        "commerce": "JUMBO ONECLICK           SANTIAGO     CL",
+        "amount": 2470,
+        "datetime": "10/07/2023",
         "group": "Food"
     },
     {
         "origin": "credit",
-        "commerce": "American Eagle",
-        "amount": 59000,
-        "datetime": "2023/07/09 16:43:18",
+        "commerce": "CINEPOLIS SPA            SANTIAGO     CL",
+        "amount": 13400,
+        "datetime": "10/07/2023",
+        "group": "Hangout"
+    },
+    {
+        "origin": "credit",
+        "commerce": "PUMA PARQUE ARAUCO       SANTIAGO     CL",
+        "amount": 123984,
+        "datetime": "09/07/2023",
         "group": "Clothes"
     },
     {
-        "origin": "transfer",
-        "commerce": "Transferencia Fintual",
-        "amount": 400000,
-        "datetime": "2023/07/06 20:37:13",
-        "group": "Savings"
+        "origin": "credit",
+        "commerce": "AMERICAN EAGLE PARQUE    SANTIAGO     CL",
+        "amount": 59990,
+        "datetime": "09/07/2023",
+        "group": "Clothes"
+    },
+    {
+        "origin": "credit",
+        "commerce": "MERPAGOCABIFYCL         HUECHURABA   CL",
+        "amount": 4505,
+        "datetime": "09/07/2023",
+        "group": "Hangout"
+    },
+    {
+        "origin": "credit",
+        "commerce": "AHUM L272 LOS LEONES 1   SANTIAGO     CL",
+        "amount": 4010,
+        "datetime": "09/07/2023",
+        "group": "Trips"
+    },
+    {
+        "origin": "credit",
+        "commerce": "MT AUT LOS LEONES SUR    SANTIAGO     CL",
+        "amount": 5000,
+        "datetime": "09/07/2023",
+        "group": "Trips"
+    },
+    {
+        "origin": "credit",
+        "commerce": "GOOGLE PLAY YOUTUBE CL GOLAS CONDES   CL",
+        "amount": 1900,
+        "datetime": "09/07/2023",
+        "group": "Subscriptions"
+    },
+    {
+        "origin": "credit",
+        "commerce": "JUMBO ONECLICK           SANTIAGO     CL",
+        "amount": 23584,
+        "datetime": "09/07/2023",
+        "group": "Food"
+    },
+    {
+        "origin": "credit",
+        "commerce": "BOOZ.CL                  SANTIAGO     CL",
+        "amount": 16980,
+        "datetime": "09/07/2023",
+        "group": "Home"
+    },
+    {
+        "origin": "credit",
+        "commerce": "AMAZON                   LAS CONDES   CL",
+        "amount": 24417,
+        "datetime": "08/07/2023",
+        "group": "Hobby"
+    },
+    {
+        "origin": "credit",
+        "commerce": "MU MERCADITO URBANO SP   SANTIAGO     CL",
+        "amount": 3770,
+        "datetime": "08/07/2023",
+        "group": "Extra"
+    },
+    {
+        "origin": "credit",
+        "commerce": "COPEC PROVIDENCIA        SANTIAGO     CL",
+        "amount": 8910,
+        "datetime": "08/07/2023",
+        "group": "Home"
+    },
+    {
+        "origin": "credit",
+        "commerce": "MERCADOPAGOMEJORESOFERTALas Condes   CL",
+        "amount": 17930,
+        "datetime": "08/07/2023",
+        "group": "Food"
+    },
+    {
+        "origin": "credit",
+        "commerce": "GOOGLE PLAY YOUTUBE COMPRAS",
+        "amount": 6150,
+        "datetime": "06/07/2023",
+        "group": "Susbcription"
+    },
+    {
+        "origin": "credit",
+        "commerce": "MU MERCADITO URBANO COMPRAS",
+        "amount": 2800,
+        "datetime": "05/07/2023",
+        "group": "Extra"
+    },
+    {
+        "origin": "credit",
+        "commerce": "SOCIEDAD COMERCIAL COMPRAS",
+        "amount": 49280,
+        "datetime": "05/07/2023",
+        "group": "Hangout"
+    },
+    {
+        "origin": "credit",
+        "commerce": "PRIME VIDEO COMPRAS",
+        "amount": 5790,
+        "datetime": "05/07/2023",
+        "group": "Subscriptions"
+    },
+    {
+        "origin": "credit",
+        "commerce": "FPAY *MI COCA COL COMPRAS",
+        "amount": 21280,
+        "datetime": "05/07/2023",
+        "group": "Food"
+    },
+    {
+        "origin": "credit",
+        "commerce": "TUESTA COMPRAS",
+        "amount": 41382,
+        "datetime": "04/07/2023",
+        "group": "Hangout"
+    },
+    {
+        "origin": "credit",
+        "commerce": "MERPAGO*GREENGLASSS COMPRAS",
+        "amount": 25980,
+        "datetime": "04/07/2023",
+        "group": "Home"
+    },
+    {
+        "origin": "credit",
+        "commerce": "COPEC PROVIDENCIA COMPRAS",
+        "amount": 8764,
+        "datetime": "03/07/2023",
+        "group": "Home"
+    },
+    {
+        "origin": "credit",
+        "commerce": "JUMBO ONECLICK COMPRAS",
+        "amount": 3429,
+        "datetime": "03/07/2023",
+        "group": "Food"
+    },
+    {
+        "origin": "credit",
+        "commerce": "JUMBO ONECLICK COMPRAS",
+        "amount": 46082,
+        "datetime": "02/07/2023",
+        "group": "Food"
+    },
+    {
+        "origin": "credit",
+        "commerce": "PAYU *UBER TRIP COMPRAS",
+        "amount": 3791,
+        "datetime": "02/07/2023",
+        "group": "Trips"
+    },
+    {
+        "origin": "credit",
+        "commerce": "VIRTUAL*EL MURO COMPRAS",
+        "amount": 8000,
+        "datetime": "01/07/2023",
+        "group": "Hangout"
+    },
+    {
+        "origin": "credit",
+        "commerce": "GIMNASIO EL MURO LA COMPRAS",
+        "amount": 7600,
+        "datetime": "01/07/2023",
+        "group": "Hangout"
+    },
+    {
+        "origin": "credit",
+        "commerce": "GOOGLE PLAY YOUTUBE COMPRAS",
+        "amount": 4990,
+        "datetime": "01/07/2023",
+        "group": "Subscriptions"
     }
 ]
