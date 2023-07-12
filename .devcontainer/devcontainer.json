@@ -31,5 +31,6 @@
                 "python.defaultInterpreterPath": "${VIRTUAL_ENV}/bin/python"
             }
         }
-    }
+    },
+    "remoteUser": "root"
 }
