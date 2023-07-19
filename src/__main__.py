@@ -1,17 +1,21 @@
+import calendar
 import json
 import locale
+from datetime import date
 
 
 def load_data():
     groups = {}
     expenses = {}
+    periodic_expenses = {}
 
     with open("src/resources/groups.json") as gp, open(
         "src/resources/expenses.json"
-    ) as ex:
+    ) as ex, open("src/resources/period_expenses.json") as pex:
         groups = json.load(gp)
         expenses = json.load(ex)
-    return groups, expenses
+        periodic_expenses = json.load(pex)
+    return groups, expenses, periodic_expenses
 
 
 def compute_percentages(expenses):
@@ -40,6 +44,16 @@ def compute_percentages(expenses):
     print(percentages)
 
 
+def calculate_month_expenses(
+    periodic_expenses: list, year: int, month: int, income: int
+):
+    init_date = date(year, month, 1)
+    end_date = date(year, month, calendar.monthrange(year, month)[1])
+
+    print(init_date, end_date)
+
+
 if "__name__" == "__name__":
-    groups, expenses = load_data()
+    groups, expenses, periodic_expenses = load_data()
     compute_percentages(expenses)
+    calculate_month_expenses(periodic_expenses, 2023, 7, 1500000)
