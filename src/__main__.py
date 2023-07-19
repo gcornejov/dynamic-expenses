@@ -14,7 +14,7 @@ def load_data():
     return groups, expenses
 
 
-def compute_percentages(groups, expenses):
+def compute_percentages(expenses):
     # tot = sum(item["amount"] for item in expenses)
 
     locale.setlocale(locale.LC_MONETARY, "es_CL.UTF-8")
@@ -41,4 +41,5 @@ def compute_percentages(groups, expenses):
 
 
 if "__name__" == "__name__":
-    compute_percentages(*load_data())
+    groups, expenses = load_data()
+    compute_percentages(expenses)
