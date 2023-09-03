@@ -18,7 +18,7 @@ def load_data():
     return groups, expenses, periodic_expenses
 
 
-def compute_percentages(expenses):
+def calculate_percentages(expenses):
     # tot = sum(item["amount"] for item in expenses)
 
     locale.setlocale(locale.LC_MONETARY, "es_CL.UTF-8")
@@ -55,5 +55,5 @@ def calculate_month_expenses(
 
 if "__name__" == "__name__":
     groups, expenses, periodic_expenses = load_data()
-    compute_percentages(expenses)
+    calculate_percentages(expenses)
     calculate_month_expenses(periodic_expenses, 2023, 7, 1500000)
