@@ -15,7 +15,7 @@
                 "ms-azuretools.vscode-docker",
                 "clemenspeters.format-json",
                 "eamodio.gitlens",
-                "bungcip.better-toml",
+                "tamasfe.even-better-toml",
                 "donjayamanne.python-environment-manager",
                 "ecmel.vscode-html-css",
                 "george-alisson.html-preview-vscode",
