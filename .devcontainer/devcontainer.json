@@ -28,7 +28,9 @@
                 "files.autoSave": "afterDelay",
                 "python.terminal.activateEnvironment": true,
                 "python.terminal.activateEnvInCurrentTerminal": true,
-                "python.defaultInterpreterPath": "${VIRTUAL_ENV}/bin/python"
+                "python.defaultInterpreterPath": "${VIRTUAL_ENV}/bin/python",
+                "ruff.path": ["${VIRTUAL_ENV}/bin/ruff"],
+                "ruff.interpreter": ["${VIRTUAL_ENV}/bin/python"]
             }
         }
     },
