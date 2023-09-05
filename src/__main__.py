@@ -1,8 +1,14 @@
-from src.category_analytics import (calculate_month_expenses,
-                                    calculate_percentages, load_data)
+import pandas as pd
+
+DATA_FILENAME = "src/resources/Saldo_y_Mov_No_Facturado.xls"
 
 if "__name__" == "__name__":
-    groups, expenses, periodic_expenses = load_data()
-
-    calculate_percentages(expenses)
-    calculate_month_expenses(periodic_expenses, 2023, 7, 1500000)
+    # Load data from bank excel (Banco de Chile - National Credit)
+    # raw_data.iloc[17:,[4,10]]
+    expenses_df = pd.read_excel(
+        DATA_FILENAME,
+        sheet_name=0,
+        header=17,
+        names=["Date", "Description", "Amount"],
+        usecols=[1, 4, 10],
+    )
