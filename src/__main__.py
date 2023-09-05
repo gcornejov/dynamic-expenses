@@ -12,3 +12,13 @@ if "__name__" == "__name__":
         names=["Date", "Description", "Amount"],
         usecols=[1, 4, 10],
     )
+
+    expenses_df = expenses_df[
+        expenses_df["Description"].str.contains("TEF PAGO NORMAL") == False
+    ]
+    carged_subs_df = expenses_df[expenses_df["Description"].str.contains("GOOGLE")]
+
+    credit_expenses = expenses_df.sum()["Amount"]
+    carged_subs = carged_subs_df.sum()["Amount"]
+
+    print(expenses_df)
