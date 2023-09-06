@@ -4,7 +4,7 @@ List of TODO features
 
 ### Weekly Tracking
 
-- [ ] Add list of upcoming week expenses
+- [x] Add list of upcoming week expenses
 - [ ] Prepare next week | At the end of the week (Sunday) Load data and calculate spare amount and get week's amount
 - [ ] Start new week | Calculate week's money
 - [ ] Include International Credit into the mix
