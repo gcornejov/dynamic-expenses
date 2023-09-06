@@ -32,7 +32,9 @@ INCOMING_CARGES = {"Light": 46000, "Potina Bday": 15000}
 
 INCOMING_DEPOSITS = {}
 
-CURRENT_WEEK_FUTURE = {}
+CURRENT_WEEK_FUTURE = {"Potina": 10000, "After office": 20000, "Viaje Papa": 20000}
+
+WEEK_SURPLUS_GOAL = 30000
 
 if "__name__" == "__name__":
     # Load data from bank excel (Banco de Chile - National Credit)
@@ -65,8 +67,13 @@ if "__name__" == "__name__":
     )
     remaining_p_week = remaining / REMAINING_WEEKS
     remaining_c_week = remaining - (FIXED_WEEK_MONEY * (REMAINING_WEEKS - 1))
+    remaining_c_week_w_future = remaining_c_week - sum(CURRENT_WEEK_FUTURE.values())
 
     print(expenses_df)
     print(remaining)
+
     print(remaining_p_week)
-    print(remaining_c_week)
+
+    print(remaining_c_week, remaining_c_week - WEEK_SURPLUS_GOAL)
+
+    print(remaining_c_week_w_future, remaining_c_week_w_future - WEEK_SURPLUS_GOAL)
