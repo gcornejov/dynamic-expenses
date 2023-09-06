@@ -5,7 +5,7 @@ List of TODO features
 ### Weekly Tracking
 
 - [x] Add list of upcoming week expenses
-- [ ] Load data to DB | Save excel data into a more resilient and faster storage media
+- [ ] Create data loader from excel | Save excel and calculations (into a DB maybe...) to keep history and progress trough weeks more organically
 - [ ] Prepare next week | At the end of the week (Sunday) Load data and calculate spare amount and get week's amount
 - [ ] Start new week | Calculate week's money
 - [ ] Start new month | Decide what to do on combined weeks (last and first)
