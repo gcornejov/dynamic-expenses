@@ -11,12 +11,12 @@ REMAINING_WEEKS = 4
 
 OTHER_PURPOSE = {"Leisure": 430000, "Tita's Gift": 50000}
 SUBSCRIPTIONS_NEW = [
-    {"Name": "Crunchyroll", "Alias": "CRUNCHYROLL", "Amount": 4900},
-    {"Name": "Prime Video", "Alias": "PRIME VIDEO", "Amount": 5790},
-    {"Name": "Youtube", "Alias": "GOOGLE", "Amount": 6150},
-    {"Name": "Spotify", "Alias": "SPOTIFY", "Amount": 7200},
-    {"Name": "Google", "Alias": "GOOGLE", "Amount": 1900},
-    {"Name": "Pokemon", "Alias": "GOOGLE", "Amount": 1900},
+    {"Name": "Crunchyroll", "Alias": ["CRUNCHYROLL"], "Amount": 4900},
+    {"Name": "Prime Video", "Alias": ["PRIME VIDEO"], "Amount": 5790},
+    {"Name": "Youtube", "Alias": ["GOOGLE"], "Amount": 6150},
+    {"Name": "Spotify", "Alias": ["SPOTIFY"], "Amount": 7200},
+    {"Name": "Google", "Alias": ["GOOGLE"], "Amount": 1900},
+    {"Name": "Pokemon", "Alias": ["GOOGLE"], "Amount": 1900},
 ]
 SUBSCRIPTIONS = {
     "Crunchyroll": 4900,
