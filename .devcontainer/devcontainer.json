@@ -2,10 +2,10 @@
     "build": {
         "dockerfile": "base.Dockerfile",
         "args": {
-            "IMG": "mcr.microsoft.com/vscode/devcontainers/python:3.10-bullseye"
+            "IMG": "mcr.microsoft.com/vscode/devcontainers/python:3.11-bullseye"
         }
     },
-    "postCreateCommand": "bash .devcontainer/poetry-setup.sh",
+    "postCreateCommand": "sed -i 's/^ZSH_THEME=.*/ZSH_THEME=\"bira\"/' /root/.zshrc && .devcontainer/poetry-setup.sh",
     "forwardPorts": [5000],
     "customizations": {
         // Configure properties specific to VS Code.
@@ -30,7 +30,8 @@
                 "python.terminal.activateEnvInCurrentTerminal": true,
                 "python.defaultInterpreterPath": "${VIRTUAL_ENV}/bin/python",
                 "ruff.path": ["${VIRTUAL_ENV}/bin/ruff"],
-                "ruff.interpreter": ["${VIRTUAL_ENV}/bin/python"]
+                "ruff.interpreter": ["${VIRTUAL_ENV}/bin/python"],
+                "terminal.integrated.defaultProfile.linux": "zsh"
             }
         }
     },
