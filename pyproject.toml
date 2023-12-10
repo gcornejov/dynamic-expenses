@@ -10,7 +10,7 @@ packages = [{include = "src"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 pandas = {"version" = "^2.1.0", "extras" = ["excel"] }
-django = "^4.2.6"
+django = "^5.0"
 
 
 [tool.poetry.group.dev.dependencies]
